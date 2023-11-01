@@ -107,7 +107,8 @@ config:
     #   credentials: secret:argocd/git-credentials#creds
     - name: Docker Hub
       api_url: https://registry-1.docker.io
-      ping: yes
+      ping: no
+      insecure: true
       credentials: secret:argocd/git-credentials#creds
       defaultns: library
     # - name: Google Container Registry
