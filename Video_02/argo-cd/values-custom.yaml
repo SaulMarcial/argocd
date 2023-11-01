@@ -375,7 +375,7 @@ configs:
   ## Note: the last example in the list would use a repository credential template, configured under "configs.repositoryCredentials".
   repositories:
     theautomationrules-argocd:
-      url: https://github.com/TheAutomationRules/argocd.git
+      url: https://github.com/SaulMarcial/argocd.git
       name: theautomationrules-argocd
     # istio-helm-repo:
     #   url: https://storage.googleapis.com/istio-prerelease/daily-build/master-latest-daily/charts
