@@ -11,7 +11,7 @@ spec:
   project: argocd-demo
 
   source:
-    repoURL: https://github.com/TheAutomationRules/argocd.git
+    repoURL: https://github.com/SaulMarcial/argocd.git
     targetRevision: main
     path: official/argocd-image-updater
     helm:
