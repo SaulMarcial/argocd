@@ -345,7 +345,7 @@ configs:
   ## Creates a secret for each key/value specified below to create repository credentials
   credentialTemplates:
     github-user-public:
-      url: https://github.com/TheAutomationRules
+      url: https://github.com/SaulMarcial
 
     # github-enterprise-creds-1:
     #   url: https://github.com/argoproj
@@ -376,7 +376,7 @@ configs:
   repositories:
     theautomationrules-argocd:
       url: https://github.com/SaulMarcial/argocd.git
-      name: theautomationrules-argocd
+      name: SaulMarcial
     # istio-helm-repo:
     #   url: https://storage.googleapis.com/istio-prerelease/daily-build/master-latest-daily/charts
     #   name: istio.io
